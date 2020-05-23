@@ -1,3 +1,23 @@
+/*--------------------------------------------Jumbotron*/
+
+.jumbotron {
+    background-color: #000;
+    border-radius: 0;
+}
+
+.white-text {
+    color: white;
+}
+
+.download-button:hover {
+    color: white;
+    background-color: #7910e8;
+    border-color: #7910e8;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+}
 
 
 /*--------------------------------------------Footer*/
@@ -8,15 +28,24 @@ footer {
     min-height: 120px;
     margin: 0;
 }
-
-footer .rpg-pdf i {
+.rpg-pdf {
     color: #fafafa;
     text-align: center;
     font-size: 18px;
     padding-left: 5px;
 }
+.rpg-pdf:hover {
+    color: #7910e8;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+}
 
-footer .rpg-pdf i:hover {
+
+
+.rpg-pdf i:hover {
     color: #7910e8;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -26,30 +55,44 @@ footer .rpg-pdf i:hover {
 
 .social-links {
     padding-bottom: 15px;
+    margin: 1rem;
 }
 
+.footer-links {
+    text-align: center;
+}
 
 
 .social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
+    margin: 20px;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
+
+}
+
+.social-links li a i:hover {
+    background: #7910e8;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    background: #7910e8;
-}
-
 #footer-details {
     margin: 20px;
+}
+
+.list-inline {
+    display: inline-flex
+}
+
+footer p {
+    margin: 1rem 0;
 }
