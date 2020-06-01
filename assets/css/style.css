@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Oswald", sans-serif
+}
+
 /*--------------------------------------------Jumbotron*/
 
 .jumbotron {
@@ -9,7 +15,7 @@
     color: white;
 }
 
-.download-button:hover {
+.purple-hover:hover {
     color: white;
     background-color: #7910e8;
     border-color: #7910e8;
@@ -19,7 +25,19 @@
     -o-transition: all 0.35s ease-in-out; 
 }
 
+/*--------------------------------------------You Will Need*/
+.you-need {
+    background-color: #000;
+    border-radius: 0;
+}
 
+.you-need ul {
+    list-style: none;
+}
+
+.dice-img {
+    vertical-align: middle;
+}
 /*--------------------------------------------Footer*/
 
 footer {
