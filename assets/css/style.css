@@ -38,6 +38,31 @@ body {
 .dice-img {
     vertical-align: middle;
 }
+
+/*--------------------------------------------Characters*/
+.carousel-indicators .active{
+    background-color: #000;
+}
+
+.carousel-indicators li {
+    background-color: #aaa;
+}
+
+.carousel-indicators {
+    margin-bottom: 0rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.carousel-control-prev {
+    padding-right: 50px;
+}
+.carousel-control-next {
+    padding-left: 50px;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
