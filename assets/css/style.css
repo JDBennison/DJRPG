@@ -63,6 +63,19 @@ body {
     padding-left: 50px;
 }
 
+/*--------------------------------------------Places to Play*/
+
+
+
+.places-to-play-icon {
+    color: #000;
+    font-size: 26px;
+
+}
+
+div#map {
+    min-height: 400px;
+}    
 /*--------------------------------------------Footer*/
 
 footer {
