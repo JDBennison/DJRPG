@@ -59,7 +59,9 @@
               <a class="dropdown-item" href="rules.html#attacking-defending"
                 >Attacking and Defending</a
               >
-              <a class="dropdown-item" href="rules.html">Kombat Abilities</a>
+              <a class="dropdown-item" href="rules.html#combat-abilities"
+                >Kombat Abilities</a
+              >
               <a class="dropdown-item" href="rules.html">Skills</a>
               <a class="dropdown-item" href="rules.html"
                 >Health, Damage, Healing</a
@@ -157,7 +159,107 @@
     <hr />
     <section id="attacking-defending" class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
+          <div class="container">
+            <div class="row attack-defend-headers">
+              <div class="col-3 text-center">
+                <p>Attacker</p>
+              </div>
+              <div class="col-3 offset-1 text-center">
+                <p>Defender</p>
+              </div>
+            </div>
+            <div class="row attack-defend-examples">
+              <div class="col-3 text-center">
+                <i class="fas fa-dice-five"></i><i class="fas fa-dice-three"></i
+                ><i class="fas fa-dice-two"></i>
+              </div>
+              <div class="col-1 text-center attack-vs">vs</div>
+              <div class="col-3 text-center">
+                <i class="fas fa-dice-four"></i><i class="fas fa-dice-two"></i
+                ><i class="fas fa-dice-one"></i>
+              </div>
+              <div class="col-4 text-center">
+                <button
+                  type="button"
+                  class="attackHit btn btn-dark purple-hover"
+                >
+                  Hit or Miss?
+                </button>
+              </div>
+            </div>
+            <div class="row attack-defend-examples">
+              <div class="col-3 text-center">
+                <i class="fas fa-dice-six"></i><i class="fas fa-dice-five"></i>
+              </div>
+              <div class="col-1 text-center attack-vs">vs</div>
+              <div class="col-3 text-center">
+                <i class="fas fa-dice-six"></i><i class="fas fa-dice-five"></i>
+              </div>
+              <div class="col-4 text-center">
+                <button
+                  type="button"
+                  class="attackHit btn btn-dark purple-hover"
+                >
+                  Hit or Miss?
+                </button>
+              </div>
+            </div>
+            <div class="row attack-defend-examples">
+              <div class="col-3 text-center">
+                <i class="fas fa-dice-five"></i><i class="fas fa-dice-five"></i>
+              </div>
+              <div class="col-1 text-center attack-vs">vs</div>
+              <div class="col-3 text-center">
+                <i class="fas fa-dice-six"></i>
+              </div>
+              <div class="col-4 text-center">
+                <button
+                  type="button"
+                  class="attackMiss btn btn-dark purple-hover"
+                >
+                  Hit or Miss?
+                </button>
+              </div>
+            </div>
+            <div class="row attack-defend-examples">
+              <div class="col-3 text-center">
+                <i class="fas fa-dice-one"></i>
+              </div>
+              <div class="col-1 text-center attack-vs">vs</div>
+              <div class="col-3 text-center">
+                <i class="far fa-square"></i>
+              </div>
+              <div class="col-4 text-center">
+                <button
+                  type="button"
+                  class="attackHit btn btn-dark purple-hover"
+                >
+                  Hit or Miss?
+                </button>
+              </div>
+            </div>
+            <div class="row attack-defend-examples">
+              <div class="col-3 text-center">
+                <i class="fas fa-dice-two"></i><i class="fas fa-dice-one"></i
+                ><i class="fas fa-dice-one"></i>
+              </div>
+              <div class="col-1 text-center attack-vs">vs</div>
+              <div class="col-3 text-center">
+                <i class="fas fa-dice-three"></i>
+              </div>
+              <div class="col-4 text-center">
+                <button
+                  type="button"
+                  class="attackMiss btn btn-dark purple-hover"
+                >
+                  Hit or Miss?
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
           <h2 class="rules-section-heading">Attacking and Defending</h2>
           <p>
             Proin pretium volutpat leo, vitae dictum ex commodo vitae.
@@ -169,8 +271,34 @@
             Fusce tristique auctor ligula feugiat elementum.
           </p>
         </div>
-        <div class="col-md-4">
+      </div>
+    </section>
+    <hr />
+    <section id="combat-abilities" class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Combat Symbols</h2>
         </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card text-right">
+            <h5 class="card-title">
+              Strength <i class="fas fa-fist-raised"></i>
+            </h5>
+            <div class="card-body">
+              Vivamus libero quam, consequat non imperdiet eu, auctor quis
+              libero. Aliquam lacinia efficitur mi a bibendum. Morbi sit amet
+              turpis nisl. Orci varius natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Etiam bibendum nisi
+              felis.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img class="vitruvian-man" src="assets/images/Vitruvian_Man.png" />
+        </div>
+        <div class="col-md-4"></div>
       </div>
     </section>
     <footer class="container-fluid">
@@ -203,5 +331,6 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/rules.js"></script>
   </body>
 </html>

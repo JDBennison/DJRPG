@@ -96,6 +96,23 @@ div#map {
     text-align: center;
 }
 
+.attack-defend-headers{
+    font-size: 15px;
+}
+
+.attack-defend-examples {
+    font-size: 35px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.attack-vs {
+    font-size: 20px;
+}
+
+.vitruvian-man {
+    width: 100%;
+}
 
 /*--------------------------------------------Footer*/
 
