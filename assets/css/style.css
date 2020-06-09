@@ -76,7 +76,27 @@ body {
 
 div#map {
     min-height: 400px;
-}    
+}
+
+/*--------------------------------------------Rules*/
+
+.rolling-example{
+    align-items: center;
+}
+
+.rolling-example i {
+    font-size: 45px;
+}
+
+.rolling-ability {
+    margin: auto;
+}
+
+.rolling-ability i {
+    text-align: center;
+}
+
+
 /*--------------------------------------------Footer*/
 
 footer {
