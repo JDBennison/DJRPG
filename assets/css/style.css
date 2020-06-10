@@ -115,14 +115,13 @@ div#map {
 }
 
 /*--------------------------------------------Experiment*/
-.ability-circle {
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 #divCircle { 
     width: 500px;
     height: 500px;
+    position: relative;
+    margin: auto
 }
  
 .off {
@@ -136,7 +135,7 @@ div#map {
     color: #fafafa;
     background: #8f8f8f;
     padding: 26px 0;
-    margin: 20px;
+    
 }
 
 .on {
@@ -150,7 +149,7 @@ div#map {
     color: #fafafa;
     background: #7910e8;
     padding: 26px 0;
-    margin: 20px;
+    
 }
  
 #middleBubble {
@@ -159,10 +158,14 @@ div#map {
   background-repeat: no-repeat;
   background-size: cover;
   color: #252525; 
-  height:75%;       
-  width: 75%;   
+  height: 50%;       
+  width: 50%;   
   margin: auto;
   padding: 45px;
+  position: absolute;
+  top: 125px;
+  left: 125px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------Footer*/

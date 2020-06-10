@@ -7,21 +7,20 @@ $(".attackMiss").click(function() {
 });
 
 //$(document).ready(function(){
-//     var divTop = ($("#divCircle").height() - $("#middleBubble").height())/2;
-//     var divLeft = ($("#divCircle").width() - $("#middleBubble").width())/2;
-//     $("#middleBubble").css("top",divTop + "px");
-//     $("#middleBubble").css("left",divLeft + "px");
+  //   var divTop = ($("#divCircle").height() - $("#middleBubble").height())/2;
+    // var divLeft = ($("#divCircle").width() - $("#middleBubble").width())/2;
+   //  $("#middleBubble").css("top",divTop + "px");
+    // $("#middleBubble").css("left",divLeft + "px");;
 //})
 
 $(document).ready(function(){
-     numItems = $( "#divCircle i" ).length; 
      start = 4.1; 
-     step = (2*Math.PI)/numItems;
+     step = (2*Math.PI)/5;
      
      $( "#divCircle i" ).each(function(index) {
-          radius = ($("#divCircle").width() - $(this).width())/2; 
-          tmpTop = (($("#divCircle").height()/2) + radius * Math.sin(start)) - ($(this).height()/2);
-          tmpLeft = (($("#divCircle").width()/2) + radius * Math.cos(start)) - ($(this).width()/2);
+          radius = 180;
+          tmpTop = (250 + radius * Math.sin(start)) - (30);
+          tmpLeft = (250 + radius * Math.cos(start)) - (30);
           start += step; 
                  
           $(this).css("top",tmpTop);
