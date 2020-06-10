@@ -135,7 +135,10 @@ div#map {
     color: #fafafa;
     background: #8f8f8f;
     padding: 26px 0;
-    
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
 }
 
 .on {
@@ -149,7 +152,10 @@ div#map {
     color: #fafafa;
     background: #7910e8;
     padding: 26px 0;
-    
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out; 
 }
  
 #middleBubble {
