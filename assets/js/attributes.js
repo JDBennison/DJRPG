@@ -1,17 +1,9 @@
-$(".attackHit").click(function() {
-    $(this).html("Attack Hits!")
-});
-
-$(".attackMiss").click(function() {
-    $(this).html("Attack Misses!")
-});
-
-//$(document).ready(function(){
-//     var divTop = ($("#divCircle").height() - $("#middleBubble").height())/2;
-//     var divLeft = ($("#divCircle").width() - $("#middleBubble").width())/2;
-//     $("#middleBubble").css("top",divTop + "px");
-//     $("#middleBubble").css("left",divLeft + "px");
-//})
+$(document).ready(function(){
+     var divTop = ($("#divCircle").height() - $("#middleBubble").height())/2;
+     var divLeft = ($("#divCircle").width() - $("#middleBubble").width())/2;
+     $("#middleBubble").css("top",divTop + "px");
+     $("#middleBubble").css("left",divLeft + "px");
+})
 
 $(document).ready(function(){
      numItems = $( "#divCircle i" ).length; 

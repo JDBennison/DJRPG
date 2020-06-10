@@ -277,28 +277,45 @@
     <section id="combat-abilities" class="container">
       <div class="row">
         <div class="col-12">
-          <h2>Combat Symbols</h2>
+          <h2 class="text-center">Combat Symbols</h2>
         </div>
       </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <div class="card text-right">
-            <h5 class="card-title">
-              Strength <i class="fas fa-fist-raised"></i>
-            </h5>
-            <div class="card-body">
-              Vivamus libero quam, consequat non imperdiet eu, auctor quis
-              libero. Aliquam lacinia efficitur mi a bibendum. Morbi sit amet
-              turpis nisl. Orci varius natoque penatibus et magnis dis
-              parturient montes, nascetur ridiculus mus. Etiam bibendum nisi
-              felis.
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <img class="vitruvian-man" src="assets/images/Vitruvian_Man.png" />
-        </div>
-        <div class="col-md-4"></div>
+      <div class="row">
+        <div class="col-12">
+      <div class="ability-circle" id="divCircle">
+        <div class="ability-circle" id="middleBubble">&nbsp;</div>
+        <i
+          class="fas fa-fist-raised homepageGridDefault"
+          id="strength"
+          data-bubble1="Strength"
+          data-bubble2="Determines how strong you are and how good at hitting things close up you are."
+        ></i>
+        <i
+          class="fas fa-bullseye off"
+          id="dexterity"
+          data-bubble1="Dexterity"
+          data-bubble2="Determines how quick and nimble you are and how good at hitting things from far away you are."
+        ></i>
+        <i
+          class="fas fa-shield-alt off"
+          id="resilience"
+          data-bubble1="Resilience"
+          data-bubble2="Determines how hard you are to hit."
+        ></i>
+        <i
+          class="fas fa-heart off"
+          id="health"
+          data-bubble1="Health"
+          data-bubble2="Determines how many times you can be hit before you are knocked out."
+        ></i>
+        <i
+          class="fas fa-cogs off"
+          id="intelligence"
+          data-bubble1="Intelligence"
+          data-bubble2="Determines how clever you are and how good you are at using technology or magic."
+        ></i>
+      </div>
+      </div>
       </div>
     </section>
     <footer class="container-fluid">

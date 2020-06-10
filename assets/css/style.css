@@ -114,6 +114,57 @@ div#map {
     width: 100%;
 }
 
+/*--------------------------------------------Experiment*/
+.ability-circle {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#divCircle { 
+    width: 500px;
+    height: 500px;
+}
+ 
+.off {
+    position: absolute;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    padding: 26px 0;
+    margin: 20px;
+}
+
+.on {
+    position: absolute;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #7910e8;
+    padding: 26px 0;
+    margin: 20px;
+}
+ 
+#middleBubble {
+  text-align:center;
+  background: url(../images/blackcircle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #252525; 
+  height:75%;       
+  width: 75%;   
+  margin: auto;
+  padding: 45px;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
