@@ -118,8 +118,8 @@ div#map {
 
 
 #divCircle { 
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     position: relative;
     margin: auto
 }
@@ -158,14 +158,20 @@ div#map {
   background-repeat: no-repeat;
   background-size: cover;
   color: #252525; 
-  height: 50%;       
-  width: 50%;   
+  height: 300px;       
+  width: 300px;   
   margin: auto;
   padding: 45px;
   position: absolute;
-  top: 125px;
-  left: 125px;
-  font-size: 18px;
+  top: 50px;
+  left: 50px;
+  font-size: 22px;
+}
+
+/*--------------------------------------------Footer*/
+
+.attacks {
+    padding-top: 15px;
 }
 
 /*--------------------------------------------Footer*/

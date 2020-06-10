@@ -19,8 +19,8 @@ $(document).ready(function(){
      
      $( "#divCircle i" ).each(function(index) {
           radius = 180;
-          tmpTop = (250 + radius * Math.sin(start)) - (30);
-          tmpLeft = (250 + radius * Math.cos(start)) - (30);
+          tmpTop = (200 + radius * Math.sin(start)) - (30);
+          tmpLeft = (200 + radius * Math.cos(start)) - (30);
           start += step; 
                  
           $(this).css("top",tmpTop);
