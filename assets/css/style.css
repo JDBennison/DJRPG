@@ -80,6 +80,21 @@ div#map {
 
 /*--------------------------------------------Rules*/
 
+#rolling-for-stuff {
+    background: #000;
+    color: white;
+    padding: 1rem;
+}
+
+.rules-section {
+    padding: 0 35px
+}
+
+.rolling-icon {
+    padding: 0;
+    margin: auto;
+}
+
 .rolling-example{
     align-items: center;
 }
@@ -116,8 +131,13 @@ div#map {
     width: 100%;
 }
 
-/*--------------------------------------------Experiment*/
+/*--------------------------------------------Combat Symbols*/
 
+#combat-abilities {
+    background: black;
+    color: white;
+    padding-bottom: 30px;
+}
 
 #divCircle { 
     width: 400px;
@@ -222,6 +242,7 @@ div#map {
 .skills-info-box {
     border: 5px solid black;
     height: auto;
+    margin-top: 10px;
 }
 
 /*--------------------------------------------Health, Damage, Healing*/
