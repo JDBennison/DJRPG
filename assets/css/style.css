@@ -4,11 +4,45 @@ body {
     font-family: "Oswald", sans-serif
 }
 
+.navbar-img {
+    height: 30px;
+}
+
 /*--------------------------------------------Jumbotron*/
 
-.jumbotron {
+#jumbotron {
+    padding: 0;
+    overflow: hidden;
+}
+
+.welcome-message {
+    margin: auto;
+}
+
+.jumbotron-text {
+    font-size: 25px;
+}
+
+.dj-logo {
+    width: 100%;
+    
+}
+
+.jumbotron-fluid {
     background-color: #000;
     border-radius: 0;
+    margin: 0;
+    min-height: 500px;
+}
+
+.doktor-james-in-space {
+    background: url("../images/Bad Skemes Image.jpg") no-repeat fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 88vh;
+    background-position-x: 240px;
+    background-position-y: -470px;
 }
 
 .white-text {
@@ -127,14 +161,13 @@ div#map {
     font-size: 20px;
 }
 
-.vitruvian-man {
-    width: 100%;
-}
-
 /*--------------------------------------------Combat Symbols*/
 
 #combat-abilities {
-    background: black;
+    background: url(../images/space-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     padding-bottom: 30px;
 }
@@ -204,6 +237,16 @@ div#map {
 
 /*--------------------------------------------Skills*/
 
+#skills {
+    background: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.how-to-skills {
+    padding: 0 20px;
+}
+
 .skill-example {
     padding-top: 20px;
     margin: auto;
@@ -240,7 +283,7 @@ div#map {
 }
 
 .skills-info-box {
-    border: 5px solid black;
+    border: 5px solid white;
     height: auto;
     margin-top: 10px;
 }
@@ -276,13 +319,18 @@ div#map {
     padding: 0.5rem
 }
 
+#battles {
+    background: #000;
+    color: white;
+    padding: 0 20px;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
-    margin: 0;
+    overflow: hidden;
 }
 .rpg-pdf {
     color: #fafafa;
