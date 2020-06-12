@@ -62,7 +62,7 @@
               <a class="dropdown-item" href="rules.html#combat-abilities"
                 >Kombat Abilities</a
               >
-              <a class="dropdown-item" href="rules.html">Skills</a>
+              <a class="dropdown-item" href="rules.html#skills">Skills</a>
               <a class="dropdown-item" href="rules.html"
                 >Health, Damage, Healing</a
               >
@@ -138,7 +138,9 @@
             <div class="col-2">Good</div>
           </div>
           <div class="row rolling-example">
-            <div class="col-2 rolling-ability"><i class="fas fa-cogs"></i></div>
+            <div class="col-2 rolling-ability">
+              <i class="fas fa-brain"></i>
+            </div>
             <div class="col-2 offset-1"><i class="far fa-square"></i></div>
             <div class="col-2"></div>
             <div class="col-2"></div>
@@ -309,7 +311,7 @@
               data-bubble2="Determines how many times you can be hit before you are knocked out."
             ></i>
             <i
-              class="fas fa-cogs off"
+              class="fas fa-brain off"
               id="intelligence"
               data-bubble1="Intelligence"
               data-bubble2="Determines how clever you are and how good you are at using technology or magic."
@@ -319,7 +321,7 @@
       </div>
     </section>
     <section class="container attacks">
-        <hr>
+      <hr />
       <div class="row">
         <div class="col-12">
           <h2 class="text-center">Attacks</h2>
@@ -332,9 +334,9 @@
               <h5 class="card-title text-center">Normal Attack</h5>
               <p class="card-text">
                 Proin pretium volutpat leo, vitae dictum ex commodo vitae.
-            Pellentesque finibus purus vel tellus cursus, a ornare justo
-            blandit. Suspendisse vitae sem euismod, lacinia mi nec, condimentum
-            urna.
+                Pellentesque finibus purus vel tellus cursus, a ornare justo
+                blandit. Suspendisse vitae sem euismod, lacinia mi nec,
+                condimentum urna.
               </p>
             </div>
           </div>
@@ -345,9 +347,9 @@
               <h5 class="card-title text-center">Special Attack</h5>
               <p class="card-text">
                 Proin pretium volutpat leo, vitae dictum ex commodo vitae.
-            Pellentesque finibus purus vel tellus cursus, a ornare justo
-            blandit. Suspendisse vitae sem euismod, lacinia mi nec, condimentum
-            urna.
+                Pellentesque finibus purus vel tellus cursus, a ornare justo
+                blandit. Suspendisse vitae sem euismod, lacinia mi nec,
+                condimentum urna.
               </p>
             </div>
           </div>
@@ -358,13 +360,84 @@
               <h5 class="card-title text-center">Bonus Ability</h5>
               <p class="card-text">
                 Proin pretium volutpat leo, vitae dictum ex commodo vitae.
-            Pellentesque finibus purus vel tellus cursus, a ornare justo
-            blandit. Suspendisse vitae sem euismod, lacinia mi nec, condimentum
-            urna.
+                Pellentesque finibus purus vel tellus cursus, a ornare justo
+                blandit. Suspendisse vitae sem euismod, lacinia mi nec,
+                condimentum urna.
               </p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <hr />
+    <section class="container" id="skills">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Skill Checks</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <h4>How to roll for skills</h4>
+          <p>
+            Ut auctor justo vitae arcu ultricies, sit amet egestas justo
+            pharetra. Praesent mollis metus arcu, in sollicitudin ipsum cursus
+            nec. Ut ornare vitae urna quis rutrum. Nunc porttitor metus eget
+            mauris bibendum placerat. Nulla facilisi. Integer vitae erat mi. In
+            ac blandit lacus, ut blandit dui. Phasellus auctor metus lorem.
+            Maecenas vestibulum est ut velit dignissim, non vehicula est
+            dapibus. Vestibulum venenatis justo fermentum scelerisque venenatis.
+            Sed pulvinar luctus lectus egestas sollicitudin. Vestibulum vitae
+            ultrices orci. Curabitur et turpis vitae ligula facilisis
+            pellentesque. Curabitur id nibh arcu.
+          </p>
+        </div>
+        <div class="col-md-4 skill-example text-center">
+          <div class="row">
+            <div class="col-2 skill-example-icon">
+              <i class="fas fa-dice-six"></i>
+            </div>
+            <div class="col-2 skill-example-plus">
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="col-2 skill-example-icon">
+              <i class="fas fa-mask"></i>
+            </div>
+            <div class="col-2 skill-example-plus">
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="col-2 skill-example-icon">
+              <i class="fas fa-bullseye"></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2 skill-example-text">
+              <p>Base (1)</p>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-2 skill-example-text">
+              <p>Skill (1)</p>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-2 skill-example-text">
+              <p>Ability (2)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row skills">
+        <div class="col-1 offset-2"><i class="fas fa-cog skill-icons-on defaultOn" id="technology" data-skill-name="Technology" data-skill-info="Your ability with technology, computers, robots and anything else modern. You would roll this to see how well you can manipulate such things and bend them to your will or if you wanted to hack into computers to find information" data-skill-attribute="Intelligence"></i></div>
+        <div class="col-1"><i class="fas fa-running skill-icons" id="acrobatics" data-skill-name="Acrobatics" data-skill-info="Backflips! Somorsaults! Roly polys! Anything difficult and bendylike and generally cool looking. You would need to roll this if you want to jump over a big gap, flip onto an enemy's back or do some other super human stunt."></i></div>
+        <div class="col-1"><i class="fas fa-first-aid skill-icons" id="medicine" data-skill-name="Medicine"></i></div>
+        <div class="col-1"><i class="fas fa-mask skill-icons" id="stealth" data-skill-name="Stealth"></i></div>
+        <div class="col-1"><i class="far fa-eye skill-icons" id="investigation" data-skill-name="Investigation"></i></div>
+        <div class="col-1"><i class="fas fa-comment skill-icons" id="speech" data-skill-name="Speech"></i></div>
+        <div class="col-1"><i class="fas fa-plane skill-icons" id="flying" data-skill-name="Flying"></i></div>
+        <div class="col-1"><i class="fas fa-book skill-icons" id="knowledge" data-skillname="Knowledge"></i></div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 offset-2 skills-info-box" id="skillsBox"></div>
       </div>
     </section>
     <footer class="container-fluid">

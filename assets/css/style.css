@@ -90,6 +90,8 @@ div#map {
 
 .rolling-ability {
     margin: auto;
+    padding: 0;
+    text-align: center;
 }
 
 .rolling-ability i {
@@ -174,12 +176,53 @@ div#map {
   font-size: 22px;
 }
 
-/*--------------------------------------------Footer*/
+/*--------------------------------------------Attacks*/
 
 .attacks {
     padding-top: 15px;
 }
 
+/*--------------------------------------------Skills*/
+
+.skill-example {
+    padding-top: 20px;
+    margin: auto;
+}
+
+.skill-example-plus {
+    font-size: 20px;
+    margin: auto;
+}
+
+.skill-example-icon {
+    margin: auto;
+    font-size: 40px;
+    padding: 0;
+}
+
+.skill-example-text {
+    padding: 0;
+    white-space: nowrap;
+    margin: auto;
+}
+
+.skill-icons {
+    font-size: 30px;
+}
+
+.skill-icons-on {
+    font-size: 30px;
+    color: #7910e8;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+.skills-info-box {
+    border: 5px solid black;
+    height: auto;
+}
 /*--------------------------------------------Footer*/
 
 footer {

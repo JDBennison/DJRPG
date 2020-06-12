@@ -6,13 +6,6 @@ $(".attackMiss").click(function() {
     $(this).html("Attack Misses!")
 });
 
-//$(document).ready(function(){
-  //   var divTop = ($("#divCircle").height() - $("#middleBubble").height())/2;
-    // var divLeft = ($("#divCircle").width() - $("#middleBubble").width())/2;
-   //  $("#middleBubble").css("top",divTop + "px");
-    // $("#middleBubble").css("left",divLeft + "px");;
-//})
-
 $(document).ready(function(){
      start = 4.1; 
      step = (2*Math.PI)/5;
@@ -41,4 +34,19 @@ $("#divCircle i").mouseover(function(){
     $(this).addClass("on").removeClass("off");
     $("#middleBubble").html("<p><b>" + $(this).data("bubble1") + "</b><br />" + $(this).data("bubble2") + "</p>");
     currentGridSelector = $(this).attr("id");
+});
+
+skillSelector = $(".defaultOn").attr("id");
+$("#" + skillSelector).addClass("skill-icons-on").removeClass("skill-icons");
+$("#skillsBox").html("<p><h5>" + $(".defaultOn").data("skill-name") + "</h5>" + $(".defaultOn").data("skill-info") + "<br /><h6>Attribute = " + $(".defaultOn").data("skill-attribute") + "</h6></p>");
+ 
+
+$(".skills i").mouseover(function(){
+    if(skillSelector != $(this).attr("id"))
+    {
+        $("#" + skillSelector).addClass("skill-icons").removeClass("skill-icons-on");
+    }
+    $(this).addClass("skill-icons-on").removeClass("skill-icons");
+    $("#skillsBox").html("<p><h5>" + $(this).data("skill-name") + "</h5>" + $(this).data("skill-info") + "<br /><h6>Attribute = " + $(this).data("skill-attribute") + "</h6></p>");
+    skillSelector = $(this).attr("id");
 });
