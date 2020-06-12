@@ -63,10 +63,10 @@
                 >Kombat Abilities</a
               >
               <a class="dropdown-item" href="rules.html#skills">Skills</a>
-              <a class="dropdown-item" href="rules.html"
+              <a class="dropdown-item" href="rules.html#health-damage-healing"
                 >Health, Damage, Healing</a
               >
-              <a class="dropdown-item" href="rules.html">Battles</a>
+              <a class="dropdown-item" href="rules.html#battles">Battles</a>
             </div>
           </li>
           <li class="nav-item">
@@ -425,21 +425,219 @@
           </div>
         </div>
       </div>
-      <hr />
+      <div class="text-center">
+        <h3>What skills are there?</h3>
+        <p>Hover over the symbols to find out</p>
+      </div>
       <div class="row skills">
-        <div class="col-1 offset-2"><i class="fas fa-cog skill-icons-on defaultOn" id="technology" data-skill-name="Technology" data-skill-info="Your ability with technology, computers, robots and anything else modern. You would roll this to see how well you can manipulate such things and bend them to your will or if you wanted to hack into computers to find information" data-skill-attribute="Intelligence"></i></div>
-        <div class="col-1"><i class="fas fa-running skill-icons" id="acrobatics" data-skill-name="Acrobatics" data-skill-info="Backflips! Somorsaults! Roly polys! Anything difficult and bendylike and generally cool looking. You would need to roll this if you want to jump over a big gap, flip onto an enemy's back or do some other super human stunt."></i></div>
-        <div class="col-1"><i class="fas fa-first-aid skill-icons" id="medicine" data-skill-name="Medicine"></i></div>
-        <div class="col-1"><i class="fas fa-mask skill-icons" id="stealth" data-skill-name="Stealth"></i></div>
-        <div class="col-1"><i class="far fa-eye skill-icons" id="investigation" data-skill-name="Investigation"></i></div>
-        <div class="col-1"><i class="fas fa-comment skill-icons" id="speech" data-skill-name="Speech"></i></div>
-        <div class="col-1"><i class="fas fa-plane skill-icons" id="flying" data-skill-name="Flying"></i></div>
-        <div class="col-1"><i class="fas fa-book skill-icons" id="knowledge" data-skillname="Knowledge"></i></div>
+        <div class="col-1 offset-2">
+          <i
+            class="fas fa-cog skill-icons-on defaultOn"
+            id="technology"
+            data-skill-name="Technology"
+            data-skill-info="Your ability with technology, computers, robots and anything else modern. You would roll this to see how well you can manipulate such things and bend them to your will or if you wanted to hack into computers to find information"
+            data-skill-attribute="Intelligence"
+          ></i>
+        </div>
+        <div class="col-1">
+          <i
+            class="fas fa-running skill-icons"
+            id="acrobatics"
+            data-skill-name="Acrobatics"
+            data-skill-info="Backflips! Somorsaults! Roly polys! Anything difficult and bendylike and generally cool looking. You would need to roll this if you want to jump over a big gap, flip onto an enemy's back or do some other super human stunt."
+            data-skill-attribute="Dexterity"
+          ></i>
+        </div>
+        <div class="col-1">
+          <i
+            class="fas fa-first-aid skill-icons"
+            id="medicine"
+            data-skill-name="Medicine"
+            data-skill-info="Making people feel better and stuff. Roll this skill if you want to try and heal someone by one point, though it will take at least half an hour to do so not useful in the middle of combat. Also you can roll this if you find someone who is ill and you want to work out what is wrong with them."
+            data-skill-attribute="Intelligence"
+          ></i>
+        </div>
+        <div class="col-1">
+          <i
+            class="fas fa-mask skill-icons"
+            id="stealth"
+            data-skill-name="Stealth"
+            data-skill-info="Sneaky, sneaky, very sneaky. If you want to sneak up on someone or remain unseen at any point then this is what you roll. Shhhhhhh!"
+            data-skill-attribute="Dexterity"
+          ></i>
+        </div>
+        <div class="col-1">
+          <i
+            class="far fa-eye skill-icons"
+            id="investigation"
+            data-skill-name="Investigation"
+            data-skill-info="Looking for stuff and finding lost things. If you don't know where you left your keys or are looking for a secret passage or hidden drawers or checking there aren't any traps then this is what you roll."
+            data-skill-attribute="Intelligence"
+          ></i>
+        </div>
+        <div class="col-1">
+          <i
+            class="fas fa-comment skill-icons"
+            id="speech"
+            data-skill-name="Speech"
+            data-skill-info="'Oh ambassador, I am exquisitely amused by your beautiful anicdote regarding that babboon.' That there is an example of speaking nice and stuff. If you want to convince someone to do something or if you want to make friends then roll this!"
+            data-skill-attribute="Intelligence"
+          ></i>
+        </div>
+        <div class="col-1">
+          <i
+            class="fas fa-plane skill-icons"
+            id="flying"
+            data-skill-name="Flying"
+            data-skill-info="Congratulations! You have accomplished every superhero's dream and you can fly. But if you want to do it all fancy like and do stunts then roll this. Or if you're trying to fly quickly, perhaps you're chasing someone, then roll this too"
+            data-skill-attribute="Dexterity"
+          ></i>
+        </div>
+        <div class="col-1">
+          <i
+            class="fas fa-book skill-icons"
+            id="knowledge"
+            data-skill-name="Knowledge"
+            data-skill-info="Superhero children. What do they know? Do they know things? Lets find out. This skill is rolled to work out if you know things about stuff. Only about stuff that you would know obviously. If you were a tech genius then theres no point rolling to find out if you know stuff about magical pentagrams and the like."
+            data-skill-attribute="Intelligence"
+          ></i>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-8 offset-2 skills-info-box" id="skillsBox"></div>
       </div>
     </section>
+    <hr />
+    <section class="container" id="health-damage-healing">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">Health, Damage and Healing</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Health</h2>
+            <p>
+              Praesent at augue porttitor, euismod purus in, cursus nunc.
+              Aliquam vitae interdum justo, in dignissim tellus. Sed dui ligula,
+              rhoncus in aliquam ut, convallis ac erat. Ut finibus volutpat nibh
+              quis accumsan. Nulla fermentum a neque vitae posuere. Fusce
+              eleifend nulla fringilla magna dictum ultrices. Orci varius
+              natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus.
+            </p>
+            <h2>Damage</h2>
+            <p>
+              Praesent at augue porttitor, euismod purus in, cursus nunc.
+              Aliquam vitae interdum justo, in dignissim tellus. Sed dui ligula,
+              rhoncus in aliquam ut, convallis ac erat. Ut finibus volutpat nibh
+              quis accumsan. Nulla fermentum a neque vitae posuere. Fusce
+              eleifend nulla fringilla magna dictum ultrices. Orci varius
+              natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus.
+            </p>
+          </div>
+          <div class="col-md-6 health-example">
+            <div class="row">
+              <div class="col-4 health">Hero Health</div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"></div>
+            </div>
+            <div class="row">
+              <div class="col-4 health">Boss Monster</div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+            </div>
+            <div class="row">
+              <div class="col-4 health">Tough Monster</div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"></div>
+            </div>
+            <div class="row">
+              <div class="col-4 health">Normal Monster</div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"></div>
+              <div class="col-1 health-box"></div>
+            </div>
+            <div class="row">
+              <div class="col-4 health">Weak Monster</div>
+              <div class="col-1 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 health-box"></div>
+              <div class="col-1 health-box"></div>
+              <div class="col-1 health-box"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2>Healing</h2>
+            <p>
+              Praesent at augue porttitor, euismod purus in, cursus nunc.
+              Aliquam vitae interdum justo, in dignissim tellus. Sed dui ligula,
+              rhoncus in aliquam ut, convallis ac erat. Ut finibus volutpat nibh
+              quis accumsan. Nulla fermentum a neque vitae posuere. Fusce
+              eleifend nulla fringilla magna dictum ultrices. Orci varius
+              natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card heal-card">
+              <div class="card-body">
+                <div class="healing-icon"><i class="fas fa-prescription-bottle-alt"></i></div>
+                <h5 class="card-title">Medicine</h5>
+                <p class="card-text">
+                  You might find medicine on your journey. You can use it as your action and it will heal the all of the damage on whoever takes it. Once you've used it however, its gone for good.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card heal-card">
+              <div class="card-body">
+                <div class="healing-icon"><i class="fas fa-magic"></i></div>
+                <h5 class="card-title">Magic</h5>
+                <p class="card-text">
+                  If you happen to have access to magic you can spend an action in combat to heal one health box for one of your companions (or enemies if you are so inclined). Outside of combat you can heal everyone quick sharp!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card heal-card">
+              <div class="card-body">
+                <div class="healing-icon"><i class="fas fa-first-aid"></i></div>
+                <h5 class="card-title">Skills</h5>
+                <p class="card-text">
+                  If you got them healing skills you can spend some time trying to heal up a bit. Only if you have the time to spare of course!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card heal-card">
+              <div class="card-body">
+                <div class="healing-icon"><i class="fas fa-bed"></i></div>
+                <h5 class="card-title">Sleep</h5>
+                <p class="card-text">
+                  If you have plenty of time on your hands and a nice bed then getting eight hours of sleep will heal all your wounds. Delicious delicous sleep.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="container" id="battles"></section>
     <footer class="container-fluid">
       <div id="footer-details" class="row">
         <div class="col-sm-6">

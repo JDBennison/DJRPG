@@ -207,11 +207,11 @@ div#map {
 }
 
 .skill-icons {
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .skill-icons-on {
-    font-size: 30px;
+    font-size: 45px;
     color: #7910e8;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -223,6 +223,38 @@ div#map {
     border: 5px solid black;
     height: auto;
 }
+
+/*--------------------------------------------Health, Damage, Healing*/
+.health {
+    font-size: 22px;
+    white-space: nowrap;
+    margin: auto;
+}
+
+.health-box {
+    font-size: 33px;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.health-example {
+    margin-top: 30px;
+}
+
+.healing-icon {
+    text-align: center;
+    font-size: 70px;
+}
+
+.heal-card {
+    height: 100%;
+}
+
+.card-body {
+    padding: 0.5rem
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
