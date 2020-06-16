@@ -28,6 +28,15 @@ body {
     
 }
 
+.cake-or-bomb {
+    margin-top: 3rem;
+}
+
+.kastle-logo {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
 .jumbotron-fluid {
     background-color: #000;
     border-radius: 0;
@@ -38,11 +47,11 @@ body {
 .doktor-james-in-space {
     background: url("../images/Bad Skemes Image.jpg") no-repeat fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50%;
     background-attachment: fixed;
-    height: 88vh;
-    background-position-x: 240px;
-    background-position-y: -470px;
+    height: 90vh;
+    background-position-x: right;
+    background-position-y: center;
 }
 
 .white-text {
