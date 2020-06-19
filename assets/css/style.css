@@ -1,253 +1,262 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 body {
-    font-family: "Oswald", sans-serif
+  font-family: "Oswald", sans-serif;
 }
 
 .navbar-img {
-    height: 30px;
+  height: 30px;
 }
 
 .row {
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .padding-no {
-    text-align: center;
-    padding: 0;
-    margin: auto;
+  text-align: center;
+  padding: 0;
+  margin: auto;
 }
 
 /*--------------------------------------------Jumbotron*/
 
 #jumbotron {
-    padding: 0;
-    overflow: hidden;
+  padding: 0;
+  overflow: hidden;
 }
 
 .welcome-message {
-    margin: auto;
+  margin: auto;
 }
 
 .jumbotron-text {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .dj-logo {
-    width: 100%;
-    
+  width: 100%;
 }
 
 .cake-or-bomb {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .kastle-logo {
-    width: 100%;
-    padding-bottom: 1rem;
+  width: 100%;
+  padding-bottom: 1rem;
 }
 
 .jumbotron-fluid {
-    background-color: #000;
-    border-radius: 0;
-    margin: 0;
-    min-height: 500px;
+  background-color: #000;
+  border-radius: 0;
+  margin: 0;
+  min-height: 500px;
+}
+
+@media only screen and (max-width: 970px) {
+  #jumbotron {
+    padding: 20px 0;
+    overflow: hidden;
+    min-height: 0;
+  }
 }
 
 .doktor-james-in-space {
-    background: url("../images/Bad Skemes Image.jpg") no-repeat fixed;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-attachment: fixed;
-    height: 90vh;
-    background-position-x: right;
-    background-position-y: center;
+  background: url("../images/Bad Skemes Image.jpg") no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-attachment: fixed;
+  height: 90vh;
+  background-position-x: right;
+  background-position-y: center;
 }
 
 .white-text {
-    color: white;
+  color: white;
 }
 
 .purple-hover:hover {
-    color: white;
-    background-color: #7910e8;
-    border-color: #7910e8;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; 
+  color: white;
+  background-color: #7910e8;
+  border-color: #7910e8;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 /*--------------------------------------------You Will Need*/
 .you-need {
-    background-color: #000;
-    border-radius: 0;
+  background-color: #000;
+  border-radius: 0;
 }
 
 .you-need ul {
-    list-style: none;
+  list-style: none;
 }
 
 .dice-img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*--------------------------------------------Characters*/
-.carousel-indicators .active{
-    background-color: #000;
+
+.carousel {
+    padding: 20px 0;
+}
+.carousel-indicators .active {
+  background-color: #000;
 }
 
 .carousel-indicators li {
-    background-color: #aaa;
+  background-color: #aaa;
 }
 
 .carousel-indicators {
-    margin-bottom: 0rem;
+  margin-bottom: 0rem;
 }
 
 .carousel-control-next,
 .carousel-control-prev {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 .carousel-control-prev {
-    padding-right: 50px;
+  padding-right: 50px;
 }
 .carousel-control-next {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 
 /*--------------------------------------------Places to Play*/
 
-
-
 .places-to-play-icon {
-    color: #7910e8;
-    font-size: 40px;
+  color: #7910e8;
+  font-size: 40px;
 }
 
 /*--------------------------------------------Where to play*/
 
 div#map {
-    min-height: 400px;
+  min-height: 400px;
 }
 
 /*--------------------------------------------Rules*/
 
 #rolling-for-stuff {
-    background: #000;
-    color: white;
-    padding: 1rem;
+  background: #000;
+  color: white;
+  padding: 1rem;
 }
 
 .rules-section {
-    padding: 0 35px;
-    margin-top: auto;
-    margin-bottom: auto;
+  padding: 0 35px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .rolling-icon {
-    padding: 0;
-    margin: auto;
+  padding: 0;
+  margin: auto;
 }
 
-.rolling-example{
-    align-items: center;
+.rolling-example {
+  align-items: center;
 }
 
 .rolling-example i {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .rolling-ability {
-    margin: auto;
-    padding: 0;
-    text-align: center;
+  margin: auto;
+  padding: 0;
+  text-align: center;
 }
 
 .rolling-ability i {
-    text-align: center;
+  text-align: center;
 }
 
 .attack-defend {
-    margin-top: auto;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.attack-defend-headers{
-    font-size: 15px;
+.attack-defend-headers {
+  font-size: 15px;
 }
 
 .attack-defend-examples {
-    font-size: 25px;
-    align-items: center;
-    white-space: nowrap;
+  font-size: 25px;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .attack-vs {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /*--------------------------------------------Combat Symbols*/
 
 #combat-abilities {
-    background: url(../images/space-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    padding-bottom: 30px;
+  background: url(../images/space-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding-bottom: 30px;
 }
 
-#divCircle { 
-    width: 400px;
-    height: 400px;
-    position: relative;
-    margin: auto
+#divCircle {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: auto;
 }
- 
+
 .off {
-    position: absolute;
-    font-size: 40px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    padding: 26px 0;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; 
+  position: absolute;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  padding: 26px 0;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .on {
-    position: absolute;
-    font-size: 40px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #7910e8;
-    padding: 26px 0;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out; 
+  position: absolute;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #7910e8;
+  padding: 26px 0;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
- 
+
 #middleBubble {
-  text-align:center;
+  text-align: center;
   background: url(../images/blackcircle.png);
   background-repeat: no-repeat;
   background-size: cover;
-  color: #252525; 
-  height: 300px;       
-  width: 300px;   
+  color: #252525;
+  height: 300px;
+  width: 300px;
   margin: auto;
   padding: 45px;
   position: absolute;
@@ -259,183 +268,178 @@ div#map {
 /*--------------------------------------------Attacks*/
 
 .attacks {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .attack-card {
-    height: 100%;
+  height: 100%;
 }
 
 /*--------------------------------------------Skills*/
 
 #skills {
-    background: black;
-    color: white;
-    padding: 10px 0;
+  background: black;
+  color: white;
+  padding: 10px 0;
 }
 
-
 .how-to-skills {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .skill-example {
-    padding-top: 20px;
-    padding-right: 35px;
-    margin: auto;
+  padding-top: 20px;
+  padding-right: 35px;
+  margin: auto;
 }
 
 .skill-example-plus {
-    font-size: 20px;
-    margin: auto;
+  font-size: 20px;
+  margin: auto;
 }
 
 .skill-example-icon {
-    margin: auto;
-    font-size: 40px;
-    padding: 0;
+  margin: auto;
+  font-size: 40px;
+  padding: 0;
 }
 
 .skill-example-text {
-    padding: 0;
-    white-space: nowrap;
-    margin: auto;
+  padding: 0;
+  white-space: nowrap;
+  margin: auto;
 }
 
 .skill-icons {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .icon-rows {
-    padding: 10px 0;
-    text-align: center;
+  padding: 10px 0;
+  text-align: center;
 }
 
 .skill-icons-on {
-    font-size: 45px;
-    color: #7910e8;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; 
+  font-size: 45px;
+  color: #7910e8;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .skills-info-box {
-    border: 5px solid white;
-    height: auto;
-    margin-top: 10px;
+  border: 5px solid white;
+  height: auto;
+  margin-top: 10px;
 }
 
 /*--------------------------------------------Health, Damage, Healing*/
 .health {
-    font-size: 22px;
-    white-space: nowrap;
-    margin: auto;
+  font-size: 22px;
+  white-space: nowrap;
+  margin: auto;
 }
 
 .health-box {
-    font-size: 33px;
-    padding: 0;
-    text-align: center;
-    margin: auto;
+  font-size: 33px;
+  padding: 0;
+  text-align: center;
+  margin: auto;
 }
 
 .health-example {
-    margin-top: auto;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .healing-icon {
-    text-align: center;
-    font-size: 70px;
+  text-align: center;
+  font-size: 70px;
 }
 
 .heal-card {
-    height: 100%;
+  height: 100%;
 }
 
 .card-body {
-    padding: 0.5rem
+  padding: 0.5rem;
 }
 
 #battles {
-    background: #000;
-    color: white;
-    padding: 0 20px;
+  background: #000;
+  color: white;
+  padding: 0 20px;
 }
 
 /*--------------------------------------------Footer*/
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
-    overflow: hidden;
+  background-color: #525252;
+  color: #fafafa;
+  overflow: hidden;
 }
 .rpg-pdf {
-    color: #fafafa;
-    text-align: center;
-    font-size: 18px;
-    padding-left: 5px;
+  color: #fafafa;
+  text-align: center;
+  font-size: 18px;
+  padding-left: 5px;
 }
 .rpg-pdf:hover {
-    color: #7910e8;
-    text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; 
+  color: #7910e8;
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
-
-
 .rpg-pdf i:hover {
-    color: #7910e8;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  color: #7910e8;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links {
-    padding-bottom: 15px;
-    margin: 1rem;
+  padding-bottom: 15px;
+  margin: 1rem;
 }
 
 .footer-links {
-    text-align: center;
+  text-align: center;
 }
 
-
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    margin: 20px;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  margin: 20px;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
 }
 
 .social-links li a i:hover {
-    background: #7910e8;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  background: #7910e8;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 #footer-details {
-    margin: 20px;
+  margin: 20px;
 }
 
 .list-inline {
-    display: inline-flex
+  display: inline-flex;
 }
 
 footer p {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
