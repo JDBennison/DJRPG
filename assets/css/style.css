@@ -8,6 +8,17 @@ body {
     height: 30px;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.padding-no {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+
 /*--------------------------------------------Jumbotron*/
 
 #jumbotron {
@@ -130,7 +141,9 @@ div#map {
 }
 
 .rules-section {
-    padding: 0 35px
+    padding: 0 35px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .rolling-icon {
@@ -156,12 +169,17 @@ div#map {
     text-align: center;
 }
 
+.attack-defend {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .attack-defend-headers{
     font-size: 15px;
 }
 
 .attack-defend-examples {
-    font-size: 35px;
+    font-size: 25px;
     align-items: center;
     white-space: nowrap;
 }
@@ -244,6 +262,10 @@ div#map {
     padding-top: 15px;
 }
 
+.attack-card {
+    height: 100%;
+}
+
 /*--------------------------------------------Skills*/
 
 #skills {
@@ -252,12 +274,14 @@ div#map {
     padding: 10px 0;
 }
 
+
 .how-to-skills {
     padding: 0 20px;
 }
 
 .skill-example {
     padding-top: 20px;
+    padding-right: 35px;
     margin: auto;
 }
 
@@ -280,6 +304,11 @@ div#map {
 
 .skill-icons {
     font-size: 45px;
+}
+
+.icon-rows {
+    padding: 10px 0;
+    text-align: center;
 }
 
 .skill-icons-on {
@@ -312,7 +341,8 @@ div#map {
 }
 
 .health-example {
-    margin-top: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .healing-icon {
