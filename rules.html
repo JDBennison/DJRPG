@@ -180,7 +180,7 @@
             <div class="col-2 rolling-icon">
               <i class="fas fa-dice-six"></i>
             </div>
-            <div class="col-2 rolling-icon">Awesome!</div>
+            <div class="col-2 offset-1 rolling-icon">Awesome!</div>
           </div>
           <div class="row rolling-example">
             <div class="col-2 rolling-ability">
@@ -193,7 +193,7 @@
               <i class="fas fa-dice-six"></i>
             </div>
             <div class="col-2 rolling-icon"></div>
-            <div class="col-2 rolling-icon">Good</div>
+            <div class="col-2 offset-1 rolling-icon">Good</div>
           </div>
           <div class="row rolling-example">
             <div class="col-2 rolling-ability">
@@ -204,7 +204,7 @@
             </div>
             <div class="col-2 rolling-icon"></div>
             <div class="col-2 rolling-icon"></div>
-            <div class="col-2 rolling-icon">None</div>
+            <div class="col-2 offset-1 rolling-icon">None</div>
           </div>
           <div class="row rolling-example">
             <div class="col-2 rolling-ability">
@@ -215,7 +215,7 @@
             </div>
             <div class="col-2 rolling-icon"></div>
             <div class="col-2 rolling-icon"></div>
-            <div class="col-2 rolling-icon">Mediocre</div>
+            <div class="col-2 offset-1 rolling-icon">Mediocre</div>
           </div>
         </div>
       </div>
@@ -364,7 +364,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 d-none d-sm-block">
           <div id="divCircle">
             <div id="middleBubble">&nbsp;</div>
             <i
@@ -397,6 +397,56 @@
               data-bubble1="Intelligence"
               data-bubble2="Determines how clever you are and how good you are at using technology or magic."
             ></i>
+          </div>
+        </div>
+        <div class="col-12 d-block d-sm-none">
+          <div class="container xs-ability">
+            <div class="row xs-ability-row">
+              <div class="col-1 xs-ability-symbol">
+                <i class="fas fa-fist-raised"></i>
+              </div>
+              <div class="col-2 xs-ability-heading">Strength</div>
+              <div class="col-7 offset-1 xs-ability-text">
+                Determines how strong you are and how good at hitting things
+                close up you are.
+              </div>
+            </div>
+            <div class="row xs-ability-row">
+              <div class="col-1 xs-ability-symbol">
+                <i class="far fa-dot-circle"></i>
+              </div>
+              <div class="col-2 xs-ability-heading">Dexterity</div>
+              <div class="col-7 offset-1 xs-ability-text">
+                Determines how quick and nimble you are and how good at hitting things from far away you are.
+              </div>
+            </div>
+            <div class="row xs-ability-row">
+              <div class="col-1 xs-ability-symbol">
+                <i class="fas fa-brain"></i>
+              </div>
+              <div class="col-2 xs-ability-heading">Intelligence</div>
+              <div class="col-7 offset-1 xs-ability-text">
+                Determines how clever you are and how good you are at using technology or magic.
+              </div>
+            </div>
+            <div class="row xs-ability-row">
+              <div class="col-1 xs-ability-symbol">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="col-2 xs-ability-heading">Resilience</div>
+              <div class="col-7 offset-1 xs-ability-text">
+                Determines how hard you are to hit.
+              </div>
+            </div>
+            <div class="row xs-ability-row">
+              <div class="col-1 xs-ability-symbol">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="col-2 xs-ability-heading">Health</div>
+              <div class="col-7 offset-1 xs-ability-text">
+                Determines how many times you can be hit before you are knocked out.
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -646,35 +696,45 @@
           <div class="col-md-6 health-example">
             <div class="row">
               <div class="col-4 health">Hero Health</div>
-              <div class="col-1 offset-2 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 offset-2 health-box">
+                <i class="far fa-square"></i>
+              </div>
               <div class="col-1 health-box"><i class="far fa-square"></i></div>
               <div class="col-1 health-box"><i class="far fa-square"></i></div>
               <div class="col-1 health-box"></div>
             </div>
             <div class="row">
               <div class="col-4 health">Boss Monster</div>
-              <div class="col-1 offset-2 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 offset-2 health-box">
+                <i class="far fa-square"></i>
+              </div>
               <div class="col-1 health-box"><i class="far fa-square"></i></div>
               <div class="col-1 health-box"><i class="far fa-square"></i></div>
               <div class="col-1 health-box"><i class="far fa-square"></i></div>
             </div>
             <div class="row">
               <div class="col-4 health">Tough Monster</div>
-              <div class="col-1 offset-2 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 offset-2 health-box">
+                <i class="far fa-square"></i>
+              </div>
               <div class="col-1 health-box"><i class="far fa-square"></i></div>
               <div class="col-1 health-box"><i class="far fa-square"></i></div>
               <div class="col-1 health-box"></div>
             </div>
             <div class="row">
               <div class="col-4 health">Normal Monster</div>
-              <div class="col-1 offset-2 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 offset-2 health-box">
+                <i class="far fa-square"></i>
+              </div>
               <div class="col-1 health-box"><i class="far fa-square"></i></div>
               <div class="col-1 health-box"></div>
               <div class="col-1 health-box"></div>
             </div>
             <div class="row">
               <div class="col-4 health">Weak Monster</div>
-              <div class="col-1 offset-2 health-box"><i class="far fa-square"></i></div>
+              <div class="col-1 offset-2 health-box">
+                <i class="far fa-square"></i>
+              </div>
               <div class="col-1 health-box"></div>
               <div class="col-1 health-box"></div>
               <div class="col-1 health-box"></div>

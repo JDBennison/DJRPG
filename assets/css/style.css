@@ -157,11 +157,11 @@ div#map {
 
 .rolling-icon {
   padding: 0;
-  margin: auto;
 }
 
 .rolling-example {
   align-items: center;
+  padding-top: 15px;
 }
 
 .rolling-example i {
@@ -169,7 +169,6 @@ div#map {
 }
 
 .rolling-ability {
-  margin: auto;
   padding: 0;
   text-align: center;
 }
@@ -206,6 +205,11 @@ div#map {
   background-attachment: fixed;
   color: white;
   padding-bottom: 30px;
+}
+@media (hover: none) {
+    #combat-abilities {
+        background-attachment: scroll;
+    }
 }
 
 #divCircle {
@@ -263,6 +267,36 @@ div#map {
   top: 50px;
   left: 50px;
   font-size: 22px;
+}
+
+.xs-ability-symbol {
+    text-align: center;
+    font-size: 8vw;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.xs-ability-heading {
+    font-weight: 700;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+.xs-ability-text {
+    font-size: 15px;
+    padding: 0;
+    margin-left: auto;
+}
+
+.xs-ability-row {
+    padding: 10px 0;
+}
+
+.xs-ability {
+    padding: 10px 0;
 }
 
 /*--------------------------------------------Attacks*/
