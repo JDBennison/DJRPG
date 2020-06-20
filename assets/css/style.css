@@ -202,14 +202,8 @@ div#map {
   background: url(../images/space-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   color: white;
   padding-bottom: 30px;
-}
-@media (hover: none) {
-    #combat-abilities {
-        background-attachment: scroll;
-    }
 }
 
 #divCircle {
