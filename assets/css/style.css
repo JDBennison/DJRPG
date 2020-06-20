@@ -132,7 +132,7 @@ body {
 
 .places-to-play-icon {
   color: #7910e8;
-  font-size: 40px;
+  font-size: 4vw;
 }
 
 /*--------------------------------------------Where to play*/
@@ -334,18 +334,24 @@ div#map {
   margin-top: 10px;
 }
 
+.skills {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /*--------------------------------------------Health, Damage, Healing*/
 .health {
-  font-size: 22px;
-  white-space: nowrap;
-  margin: auto;
+    font-size: 22px;
+    white-space: nowrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
 }
 
 .health-box {
   font-size: 33px;
   padding: 0;
   text-align: center;
-  margin: auto;
 }
 
 .health-example {
