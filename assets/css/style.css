@@ -63,10 +63,9 @@ body {
 }
 
 .doktor-james-in-space {
-  background: url("../images/Bad Skemes Image.jpg") no-repeat fixed;
+  background: url("../images/Bad Skemes Image.jpg") no-repeat;
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-attachment: fixed;
+  background-size: 100%;
   height: 90vh;
   background-position-x: right;
   background-position-y: center;
