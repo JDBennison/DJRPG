@@ -116,10 +116,7 @@ body {
   margin-bottom: 0rem;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-  filter: invert(100%);
-}
+
 .carousel-control-prev {
   padding-right: 50px;
 }
