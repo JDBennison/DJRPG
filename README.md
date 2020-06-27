@@ -51,6 +51,7 @@ I have used mostly HTML5, CSS3 and Javascript to put together this site along wi
 ## Testing
 * W3C CSS Validator came back with no errors
 * W3C HTML Validator came back with no errors
+* JSHint came back with no warnings 
 * *As a parent I want to understand the rules of this game so I can play it with my children and teach them how to play* – From the main page there is the navbar which directs you to the rules page and on the menu breaks it down into different sections so you can navigate straight to the part of the page you like. The rules are then laid out  in detail for the parent to read.
 * *As a parent with not a lot of room in my house, I want to find somewhere to go and play the game which is appropriate for the game* – the navbar leads you directly to a where to play section which has some information about different venues you could play at as well as a map with markers showing the different places and links to their respective websites. There is also a link in the footer to this page.
 * *As a child who wants to play the game I want to understand the rules in an accessible way so I can play it with my friends* – again, the rules page is easy to navigate to and using JavaScript, the rules themselves are interactive so you can hover over symbols and it will tell you what they mean, as well as a little test as to whether a dice roll means an attack hits or misses to check understanding.

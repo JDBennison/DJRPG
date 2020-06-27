@@ -1,9 +1,9 @@
 $(".attackHit").click(function() {
-    $(this).html("Attack Hits!")
+    $(this).html("Attack Hits!");
 });
 
 $(".attackMiss").click(function() {
-    $(this).html("Attack Misses!")
+    $(this).html("Attack Misses!");
 });
 
 $(document).ready(function(){
@@ -19,7 +19,7 @@ $(document).ready(function(){
           $(this).css("top",tmpTop);
           $(this).css("left",tmpLeft);
      });
-})
+});
 
 currentGridSelector = $(".homepageGridDefault").attr("id");
 $("#" + currentGridSelector).addClass("on").removeClass("off");
